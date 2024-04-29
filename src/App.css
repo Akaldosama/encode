@@ -90,7 +90,10 @@ footer input{
 
 @media (min-width: 448px) and (max-width: 769px){
     header{
-        padding: 5px;
+        padding: 8px 15px;
+    }
+    nav{
+        padding: 0px 15px;
     }
     nav ul{
         display: none;
@@ -115,7 +118,10 @@ footer input{
 }
 @media (max-width: 447px){
     header{
-        padding: 5px;
+        padding: 8px 15px;
+    }
+    nav{
+        padding: 0px 15px;
     }
     nav ul{
         display: none;

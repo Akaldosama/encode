@@ -8,7 +8,7 @@ export default function Services() {
             <div className="child">
                 <img src="https://my-test-11.slatic.net/p/412abbae82a81515d0abeeee445e40c1.jpg" alt="Scratch" />
                 <span>Скретч-курс для детей</span>
-                <p>Scratch — это язык программирования, разработанный для детей и начинающих программистов. Он предоставляет простой и интуитивно понятный. </p>
+                <p>Scratch — это язык программирования, разработанный для детей и начинающих программистов. Он предоставляет простой. </p>
             </div>
             <div className="child">
                 <img src="https://m.media-amazon.com/images/I/A1LtQ0VrdLL._AC_UF1000,1000_QL80_.png" alt="Minecraft" />
@@ -33,7 +33,7 @@ export default function Services() {
             <div className="child">
                 <img src="https://smartprogress.do/uploadImages/001716323.jpg" alt="IElts" />
                 <span>English</span>
-                <p>Основное различие между IELTS Academic и IELTS General заключается в том, что академический тест будет содержать темы, подходящие для всех, кто поступает в университет.</p>
+                <p>Основное различие между IELTS Academic и IELTS General заключается в том, что академический тест будет содержать темы, подходящие для всех.</p>
             </div>
             <div className="child">
                 <img src="https://blog.saga.art.br/wp-content/uploads/2020/08/photoshop.jpg" alt="photoshop" />
@@ -48,12 +48,12 @@ export default function Services() {
             <div className="child">
                 <img src="https://koenig-media.raywenderlich.com/uploads/2020/09/PlatformAwareWidgets-feature.png" alt="Flutter" />
                 <span>Flutter</span>
-                <p>Flutter меняет процесс разработки. Создавайте, тестируйте и развертывайте красивые мобильные, веб-, настольные и встроенные интерфейсы на основе единой базы кода. </p>
+                <p>Flutter меняет процесс разработки. Создавайте, тестируйте и развертывайте красивые мобильные, веб-, настольные и встроенные. используют хакеры </p>
             </div>
             <div className="child">
                 <img src="https://cadmusgroup.com/wp-content/uploads/2017/11/cyber.jpg" alt="Ethical hacking" />
                 <span>Ethical hacking</span>
-                <p>Этический взлом — это практика проведения оценки безопасности с использованием тех же методов, которые используют хакеры, но с надлежащим одобрением и разрешением организации.</p>
+                <p>Этический взлом — это практика проведения оценки безопасности с использованием тех же методов, которые используют хакеры.</p>
             </div>
         </div>
     </div>
