@@ -1,0 +1,110 @@
+.container{
+    max-width: 1500px;
+    padding: 40px 50px;
+}
+.container .parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+}
+.container .services{
+    display: none;
+}
+.container:nth-child(1) .parent{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+.container:nth-child(1) .parent .child span{
+    color: green;
+}
+.container:nth-child(1) .parent .child h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.container:nth-child(1) .parent .child p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.container:nth-child(2) .parent .child span{
+    font-size: 22px;
+    color: green;
+    font-weight: 500;
+}
+.container:nth-child(2) .parent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container:nth-child(2) .parent .child{
+    width: calc(100% / 4.1);
+    padding: 20px;
+    height: 280px;
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 10px;
+}
+
+
+
+@media (min-width: 990px) and (max-width: 1200px){
+    .container{
+        padding: 20px 20px;
+    }
+    .container:nth-child(2) .parent .child{
+        width: calc(100% / 4);
+        padding: 10px;
+    }
+}
+@media (min-width: 770px) and (max-width: 989px){
+    .container{
+        padding: 20px 20px;
+    }
+    .container:nth-child(2) .parent .child{
+        width: calc(100% / 3);
+        padding: 10px;
+    }
+}
+@media (min-width: 448px) and (max-width: 769px){
+    .container{
+        padding: 20px 20px;
+    }
+    .container .services{
+        display: block;
+        width: 100px;
+        margin: 20px auto;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: green;
+    }
+    .container:nth-child(2) .parent .child{
+        width: calc(100% / 1);
+        padding: 10px;
+        height: 200px;
+    }
+}
+@media (max-width: 447px){
+    .container{
+        padding: 20px 20px;
+    }
+    .container .services{
+        display: block;
+        width: 100px;
+        margin: 20px auto;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: green;
+    }
+    .container:nth-child(2) .parent .child{
+        width: calc(100% / 1);
+        padding: 10px;
+        height: 200px;
+    }
+}

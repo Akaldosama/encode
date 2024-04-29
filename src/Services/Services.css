@@ -1,0 +1,19 @@
+.wrapper{
+    padding: 20px 50px;
+    max-width: 1500px;
+}
+
+.wrapper .parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}
+
+.wrapper .child{
+    width: calc(100% / 5.2);
+}
+.wrapper img{
+    width: 100%;
+}
